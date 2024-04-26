@@ -1,0 +1,124 @@
+$poppins: "Poppins", sans-serif;
+
+.home {
+
+		// .home__wrapper
+
+		&__wrapper {
+            width: 1506.24px; 
+            height: 2677.44px;
+            background: #fff;
+            width: 100%;
+            height: 100%;
+		}
+
+		// .home__container
+
+		&__container {
+            width: 100%;
+            height: 100%;
+		}
+
+		// .home__header
+
+		&__header {
+            height: 7%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+		}
+
+		// .home__serviceCards
+
+		&__serviceCards {
+            margin-top: 90px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+		}
+
+		// .home__serviceCard
+
+		&__serviceCard {
+            border-radius: 25px;
+            width: 430px;
+            height: 430px;
+            background: #f3f0fb;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+		}
+
+		// .home__cardLogo
+
+		&__cardLogo {
+            img {
+                width: 250px;
+            }
+		}
+
+		// .home__cardInfo
+
+		&__cardInfo {
+            font-family: $poppins;
+            font-weight: 600;
+            font-size: 42px;
+            color: #363062;;
+            padding: 10px;
+            text-align: center;
+		}
+}
+.header {
+
+		// .header__icon
+
+		&__icon {
+            width: 75px;
+            height: 75px;
+            margin-left: 60px;
+		}
+
+		// .header__title
+
+		&__title {
+            font-family: $poppins;
+            font-weight: 600;
+            font-size: 85px;
+            text-align: center;
+            color: #363062;
+            padding-left: 80px;
+		}
+}
+.service {
+
+		// .service__search
+
+		&__search {
+            height: 10%;
+            border: 4px solid #363062;
+            border-radius: 28px;
+            width: 1200px;
+            height: 157px;
+            margin-left: 80px;
+            margin-top: 50px;
+            display: flex;
+            place-items: center;
+
+            input {
+                width: 1000px;
+                padding-left: 30px;
+                font-family: $poppins;
+                font-weight: 400;
+                font-size: 80px;
+                color: #6b6b6b;
+            }
+
+            img {
+                padding-left: 40px;
+                width: 130px;
+            }
+		}
+}

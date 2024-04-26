@@ -1,0 +1,358 @@
+/* "*" belgisi barcha elementlarga murojaatni anglatadi*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/*bloklarning width ni o`zgarishini verstka uchun qulay qilib beradi*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+/*quyidagi teglarni blok qilib beradi*/
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+/*elementlarning hossalarini barcha brauzerlar uchun mo`tadillashtirib beradi*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-family: "Gilory";
+  -ms-text-size-adjusst: 100%;
+  -moz-text-size-adjusst: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*quyidagi teglarning shriftlar oilasini vorislashi taminlanadi*/
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+/*turli brauzerlarning o`ziga xos hususiyatlarini olib tashlash*/
+input:-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:-moz-focus-innesr {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+/*sarlavharning odatdagi stillarini nullashtirish*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.home__wrapper {
+  width: 1506.24px;
+  height: 2677.44px;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.home__container {
+  width: 100%;
+  height: 100%;
+}
+.home__header {
+  height: 7%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.home__serviceCards {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.home__serviceCard {
+  border-radius: 25px;
+  width: 430px;
+  height: 430px;
+  background: #f3f0fb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.home__cardLogo img {
+  width: 250px;
+}
+.home__cardInfo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  color: #363062;
+  padding: 10px;
+  text-align: center;
+}
+
+.header__icon {
+  width: 75px;
+  height: 75px;
+  margin-left: 60px;
+}
+.header__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 85px;
+  text-align: center;
+  color: #363062;
+  padding-left: 80px;
+}
+
+.service__search {
+  height: 10%;
+  border: 4px solid #363062;
+  border-radius: 28px;
+  width: 1200px;
+  height: 157px;
+  margin-left: 80px;
+  margin-top: 50px;
+  display: flex;
+  place-items: center;
+}
+.service__search input {
+  width: 1000px;
+  padding-left: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  color: #6b6b6b;
+}
+.service__search img {
+  padding-left: 40px;
+  width: 130px;
+}
+
+.payment__container {
+  width: 1506.24px;
+  height: 2677.44px;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.payment__header {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+}
+.payment__headerBtn {
+  width: 75px;
+  height: 75px;
+  margin-left: 60px;
+}
+.payment__headerTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 85px;
+  text-align: center;
+  color: #363062;
+  padding-left: 80px;
+}
+.payment__body {
+  margin-top: 120px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.payment__body input::-moz-placeholder {
+  padding-left: 40px;
+}
+.payment__body input::placeholder {
+  padding-left: 40px;
+}
+.payment__label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  color: #363062;
+}
+.payment__select {
+  margin-top: 20px;
+  border: 5px solid #363062;
+  border-radius: 20px;
+  width: 1200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.payment__select select, .payment__select option {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  margin-left: 40px;
+}
+
+.account {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  color: #363062;
+  margin-top: 40px;
+}
+
+#account {
+  width: 1200px;
+  height: 150px;
+  border: 5px solid #363062;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: #000;
+}
+
+.nextBtn {
+  width: 1200px;
+  height: 200px;
+  background: #363062;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 122%;
+  color: #fff;
+  position: absolute;
+  bottom: 60px;
+  text-align: center;
+  left: 120px;
+}
+
+.wrapper {
+  width: 1506.24px;
+  height: 2677.44px;
+  background: linear-gradient(44deg, #363062 0%, #7870b0 100%);
+}
+
+.container {
+  background: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 80%;
+  border-radius: 120px 120px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #fff;
+}
+.header img {
+  width: 150px;
+  height: 155px;
+}
+.header .lang {
+  width: 135px;
+  height: 135px;
+  background: #938cc6;
+  border-radius: 28px;
+  display: grid;
+  place-items: center;
+}
+.header .lang__text {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.service__cards {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 45px;
+}
+.service__card {
+  border-radius: 25px;
+  width: 430px;
+  height: 430px;
+  background: #f8f6ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+}
+.service__cardLogo img {
+  width: 200px;
+  height: 200px;
+}
+.service__cardInfo p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  color: #363062;
+  padding: 10px;
+  text-align: center;
+}

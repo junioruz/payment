@@ -1,0 +1,114 @@
+.payment {
+
+    &__container {
+        width: 1506.24px; 
+        height: 2677.44px;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    &__headerBtn {
+            width: 75px;
+            height: 75px;
+            margin-left: 60px;
+    }
+
+    &__headerTitle {
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 85px;
+        text-align: center;
+        color: #363062;
+        padding-left: 80px;
+    }
+
+    &__body {
+        margin-top: 120px;
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+
+        input::placeholder {
+            padding-left: 40px;
+        }
+    }
+
+    &__label {
+        font-family: $poppins;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 120%;
+        color: #363062;
+    }
+
+    &__body {
+		}
+
+		// .payment__label
+
+		&__label {
+		}
+
+		// .payment__select
+
+		&__select {
+            margin-top: 20px;
+            border: 5px solid #363062;
+            border-radius: 20px;
+            width: 1200px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            select, option {
+                font-family: $poppins;
+                font-size: 70px;
+                margin-left: 40px;
+             }
+		}
+}
+
+.account {
+    font-family: $poppins;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    color: #363062;
+    margin-top: 40px;
+}
+
+#account {
+    width: 1200px;
+    height: 150px;
+    border: 5px solid #363062;
+    margin-top: 20px;
+    border-radius: 20px;
+
+    font-family: $poppins;
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+}
+
+.nextBtn {
+    width: 1200px;
+    height: 200px;
+    background: #363062;
+    border-radius: 30px;
+    font-family: $poppins;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 122%;
+    color: #fff;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    left: 120px;
+}
